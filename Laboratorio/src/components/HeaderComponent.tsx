@@ -7,7 +7,7 @@ export const HeaderComponent = () => {
         <header>
             <img src={logo} alt="logo" />
             <HelloWorldComponent/>
-            {process.env.APP_NAME}
+            <span>App Name: {process.env.APP_NAME}</span>
         </header>
     )
 
